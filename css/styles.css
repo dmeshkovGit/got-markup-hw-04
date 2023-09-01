@@ -83,7 +83,7 @@ img {
 }
 
 .nav-link {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #404bbf;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -198,6 +198,7 @@ img {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service-button:hover,
